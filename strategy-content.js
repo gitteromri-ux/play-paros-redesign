@@ -8,12 +8,6 @@
 function renderStrategy() {
   const el = document.getElementById('strategyContent');
   el.innerHTML = `
-  <section class="wrap" style="padding-top:var(--space-16)">
-    <span class="eyebrow">The Meeting, In One Page</span>
-    <h2 class="h-section mt-0" style="margin-top:var(--space-4)">Brown doesn't have a design problem.<br>It has an <em>F&amp;B and service</em> problem — and a clock.</h2>
-    <p class="lede" style="margin-top:var(--space-6); max-width:78ch">Rent is fixed and CPI-linked. Debt is off the table as a talking point — Avigad's defensive ground. Food and service are his stated pride, and the one lever that can still move EBITDA this year. This site is the leave-behind: three minutes to walk Leon through the number, the wound, and the ask.</p>
-  </section>
-
   <div class="brand-break reveal" style="padding-block:clamp(3.5rem, 8vw, 6rem)">
     <div class="wrap">
       <p class="brand-break-line" style="max-width:26ch">EBITDAR ~ILS 29.9m collapses to EBITDA of <em>ILS 0.34m</em>. Rent ate the rest.</p>
