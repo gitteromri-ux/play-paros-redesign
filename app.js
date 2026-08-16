@@ -214,8 +214,7 @@ document.getElementById('navToggle').addEventListener('click', () => {
 
 (function () {
   const btn = document.querySelector('[data-theme-toggle]');
-  const stored = localStorage.getItem('pp-theme');
-  if (stored) document.documentElement.setAttribute('data-theme', stored);
+  // In-memory only for this session — no persistent storage APIs available in the preview sandbox.
 
   function icon(isDark) {
     return isDark
@@ -233,7 +232,6 @@ document.getElementById('navToggle').addEventListener('click', () => {
       (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     const next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('pp-theme', next);
     syncIcon();
   });
   syncIcon();
