@@ -91,11 +91,11 @@ function mountAll() {
   document.getElementById('homeDealsPreview').innerHTML = DEALS.map(renderDealCard).join('');
   document.getElementById('homeFacilitiesPreview').innerHTML = FACILITIES.slice(0, 3).map(renderFacilityTile).join('');
   var homeGalleryPicks = [
-    { src: './assets/images/hero-facade.jpg', alt: 'PLAY Paros facade at golden hour' },
-    { src: './assets/images/rooftop-pool.jpg', alt: 'Rooftop plunge pool' },
-    { src: './assets/images/room-interior.jpg', alt: 'Room interior with sea view' },
-    { src: './assets/images/beach-bar.jpg', alt: 'PLAY Paros beach bar' },
-    { src: './assets/images/village-street.jpg', alt: 'Parikia village street' }
+    { src: './assets/images/real/facade.jpg', alt: 'PLAY Paros facade at golden hour' },
+    { src: './assets/images/real/pool-aerial.jpg', alt: 'Rooftop plunge pool from above' },
+    { src: './assets/images/real/room1.jpg', alt: 'Room interior with sea view' },
+    { src: './assets/images/real/sunset-cocktails.jpg', alt: 'PLAY Paros sunset cocktails' },
+    { src: './assets/images/real/lobby.jpg', alt: 'PLAY Paros lobby' }
   ];
   document.getElementById('homeGalleryPreview').innerHTML = homeGalleryPicks.map(g => `<div><img src="${g.src}" alt="${g.alt}" loading="lazy"></div>`).join('');
 

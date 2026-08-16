@@ -11,7 +11,7 @@ function renderStrategy() {
   <div class="brand-break reveal" style="padding-block:clamp(3.5rem, 8vw, 6rem)">
     <div class="wrap">
       <p class="brand-break-line" style="max-width:26ch">EBITDAR ~ILS 29.9m collapses to EBITDA of <em>ILS 0.34m</em>. Rent ate the rest.</p>
-      <p class="body-copy" style="margin-top:var(--space-6); max-width:60ch; margin-inline:auto; color:var(--color-text-faint)">Nine-month Greek room revenue ~ILS 72.9m at ADR ILS 608. Lease liabilities ~ILS 856.5m, mostly CPI-linked. With rent fixed, F&amp;B and rate are the only levers left <a href="https://www.deeptase.co.il/en/analysis/2049" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;color:inherit">(DeepTASE)</a>.</p>
+      <p class="body-copy" style="margin-top:var(--space-6); max-width:60ch; margin-inline:auto; color:rgba(253,250,243,0.72)">Nine-month Greek room revenue ~ILS 72.9m at ADR ILS 608. Lease liabilities ~ILS 856.5m, mostly CPI-linked. With rent fixed, F&amp;B and rate are the only levers left <a href="https://www.deeptase.co.il/en/analysis/2049" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;color:inherit">(DeepTASE)</a>.</p>
     </div>
   </div>
 
@@ -74,13 +74,13 @@ function renderStrategy() {
     <p class="body-copy" style="margin-top:var(--space-8); max-width:80ch">Nickel-and-diming compounds the wound: <strong>€3 per 500ml water, €1 per coffee capsule, €5 for a coke</strong>, snack bar excluded from all-inclusive <a href="https://www.tripadvisor.com/Hotel_Review-g4501379-d23341412-Reviews-Isla_Brown_Corinthia_Resort_Spa_Curio_Collection_By_Hilton-Agioi_Theodoroi_Corinthia.html" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">(TripAdvisor)</a>. One guest's verdict, verbatim: <em>"Brown used to be synonymous with quality and detail, now it's a rip off."</em> <a href="https://www.tripadvisor.com/Hotel_Review-g262045-d652883-Reviews-Brown_Beach_Eretria-Eretria_Euboea_Region_Central_Greece.html" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">(TripAdvisor)</a></p>
   </section>
 
-  <div class="image-band reveal"><img src="./assets/images/breakfast-table.jpg" alt="Branded breakfast concept"><span class="caption">The fastest EBITDA lever in the portfolio — and the one Avigad already believes in.</span></div>
+  <div class="image-band reveal"><img src="./assets/images/real/breakfast.jpg" alt="Play Paros breakfast service"><span class="caption">The fastest EBITDA lever in the portfolio — and the one Avigad already believes in.</span></div>
 
   <section class="wrap">
     <span class="eyebrow">03 — Why Avigad Says Yes</span>
     <h2 class="h-section mt-0" style="margin-top:var(--space-4)">This is his own standard. We're showing him where it's breaking.</h2>
     <div class="split split--reverse reveal" style="margin-top:var(--space-10)">
-      <div class="split-media"><img src="./assets/images/rooftop-sunset.jpg" alt="Rooftop bar concept"></div>
+      <div class="split-media"><img src="./assets/images/real/sunset-cocktails.jpg" alt="Play Paros rooftop at sunset"></div>
       <div>
         <p class="body-copy" style="font-style:italic; font-size:var(--text-lg); color:var(--color-text)">"Boutique hospitality is visible in the design, <strong>the food</strong>, the calm energy."</p>
         <p class="hours" style="color:var(--color-text-faint); text-transform:none; letter-spacing:0; margin-top:var(--space-2)">— Leon Avigad <a href="https://inbusinessnews.reporter.com.cy/article/436842/leon-avigad-i-kathodos-tis-brown-hotels-to-entharryntiko-ependytiko-periballon-tis-kyproy-kai-i-anazitisi-neon-efkairion" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">(InBusinessNews Cyprus)</a></p>
@@ -102,7 +102,7 @@ function renderStrategy() {
     <div class="split reveal" style="margin-top:var(--space-10)">
       <div>
         <p class="body-copy"><strong>Before:</strong> generic OTA-template layout, stock yellow brand color, standard 3-column grids, a live mailto bug pointing to a different property's inbox, and a room-copy contradiction ("King Size" vs. FAQ "queen-size only").</p>
-        <p class="body-copy" style="margin-top:var(--space-4)"><strong>After:</strong> Play's own black-and-acid-green DNA pushed to full editorial confidence — oversized serif-italic type as a repeatable punctuation device, real depth and glow instead of flat cards, a full-bleed brand-break section, and horizontal edge-peek carousels replacing static grids.</p>
+        <p class="body-copy" style="margin-top:var(--space-4)"><strong>After:</strong> Play's real brand palette — Cycladic cream, deep teal, warm gold — pushed to full editorial confidence — oversized serif-italic type as a repeatable punctuation device, real photography instead of stock, a full-bleed brand-break section, and horizontal edge-peek carousels replacing static grids.</p>
       </div>
       <div>
         <p class="body-copy"><strong>Fixed, not invented:</strong> room copy now says "Double Bed" consistently. No fictional in-house restaurant is claimed — the real beach bar is promoted to a hero facility and the neighboring breakfast partner is told honestly as a "Neighborhood Breakfast" story, with the in-house upgrade path flagged as the opportunity, not pretended into existence.</p>

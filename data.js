@@ -13,7 +13,7 @@ const ROOMS = [
     occ: 'Up to 2 guests',
     bed: 'Double Bed',
     extra: '',
-    img: './assets/images/room-interior.jpg',
+    img: './assets/images/real/room1.jpg',
     desc: "Our thoughtfully designed Comfort Double Rooms are made for cozy moments and effortless relaxation. Each room features a private bathroom with a walk-in shower and premium towels, creating a calm space to unwind after a day by the sea. Modern amenities complete the experience — everything you need for a stay that feels easy, comfortable, and just right."
   },
   {
@@ -22,7 +22,7 @@ const ROOMS = [
     occ: 'Up to 2 guests',
     bed: 'Double Bed',
     extra: 'Balcony',
-    img: './assets/images/rooftop-pool.jpg',
+    img: './assets/images/real/pool-swimmer.jpg',
     desc: "Unwind in our beautifully decorated Standard Rooms, designed for peaceful moments and effortless comfort. Overlooking our inviting pool, these rooms offer a calm setting to slow down and recharge. A private bathroom with a refreshing walk-in shower adds the perfect touch of relaxation after a full day on the island."
   },
   {
@@ -31,7 +31,7 @@ const ROOMS = [
     occ: 'Up to 2 guests',
     bed: 'Double Bed',
     extra: 'Balcony',
-    img: './assets/images/hero-facade.jpg',
+    img: './assets/images/real/rooftop.jpg',
     desc: "Wake up to stunning views in our Classic Sea View Rooms, where the beauty of the surrounding landscape becomes part of your stay. With generous space to unwind, these rooms are designed for slow mornings, easy afternoons, and relaxed evenings. Enjoy the comfort of your private bathroom with a refreshing walk-in shower, perfect after a day by the sea."
   },
   {
@@ -40,7 +40,7 @@ const ROOMS = [
     occ: 'Up to 3 guests · 23–37 sqm',
     bed: 'Double Bed',
     extra: 'Balcony',
-    img: './assets/images/lobby-lounge.jpg',
+    img: './assets/images/real/room5-bed.jpg',
     desc: "Step outside onto your private veranda and soak up the sunshine by day or the gentle evening breeze as the island slows down. Designed with generous space and thoughtful details, these rooms offer a comfortable and inviting retreat for true relaxation."
   },
   {
@@ -49,7 +49,7 @@ const ROOMS = [
     occ: 'Up to 2 + 2 children',
     bed: 'Double Bed',
     extra: 'Balcony',
-    img: './assets/images/village-street.jpg',
+    img: './assets/images/real/bathroom.jpg',
     desc: "Our Junior Sea View Suites invite you to wake up to panoramic views of the shimmering Aegean, setting the mood for a truly memorable stay. Spacious and effortlessly stylish, these suites are designed for slow mornings, relaxed afternoons, and moments that linger."
   }
 ];
@@ -133,39 +133,38 @@ const FACILITIES = [
 const EXPERIENCES = [
   {
     title: 'Gorgeous Beaches',
-    img: './assets/images/rooftop-sunset.jpg',
+    img: './assets/images/real/sunset-cocktails.jpg',
     desc: 'Relax on soft sand and swim in crystal-clear waters surrounded by the unique landscape of rocky coves. From beaches with water sports activities to untouched natural beauty — check out Kolymbithres, Santa Maria, Parasporos, and Monastiri Beach.'
   },
   {
     title: 'Sophisticated Yet Authentic — Hello, Naoussa',
-    img: './assets/images/village-street.jpg',
+    img: './assets/images/real/facade.jpg',
     desc: "Looking for vibrant nightlife and exquisite dining? Naoussa is the best place to start. This charming town has maintained its authentic Cycladic architecture and traditional feel, and is the second largest on the island."
   },
   {
     title: 'Parikia Village',
-    img: './assets/images/hero-facade.jpg',
+    img: './assets/images/real/lobby.jpg',
     desc: 'The port, the monastery, the atmosphere — welcome to Parikia village. As the capital town and main port, Parikia preserves its authentic Cycladic architecture, home to the renowned Panagia Ekatontapiliani monastery, boutiques, and museums.'
   },
   {
     title: "Paros Island's Cuisine",
-    img: './assets/images/breakfast-table.jpg',
+    img: './assets/images/real/breakfast.jpg',
     desc: 'From traditional to cosmopolitan — charming local taverns serve freshly caught seafood, traditional pastries, salads, and Mediterranean delights across the island.'
   }
 ];
 
 const GALLERY = [
-  { src: './assets/images/hero-facade.jpg', cat: 'public', big: true },
-  { src: './assets/images/rooftop-pool.jpg', cat: 'pool', big: true },
-  { src: './assets/images/room-interior.jpg', cat: 'rooms' },
-  { src: './assets/images/beach-bar.jpg', cat: 'dining', big: true },
-  { src: './assets/images/breakfast-table.jpg', cat: 'dining' },
-  { src: './assets/images/lobby-lounge.jpg', cat: 'public' },
-  { src: './assets/images/village-street.jpg', cat: 'facilities' },
-  { src: './assets/images/rooftop-sunset.jpg', cat: 'facilities', big: true },
-  { src: './assets/images/rooftop-pool.jpg', cat: 'pool' },
-  { src: './assets/images/room-interior.jpg', cat: 'rooms', big: true },
-  { src: './assets/images/hero-facade.jpg', cat: 'rooms' },
-  { src: './assets/images/lobby-lounge.jpg', cat: 'public' }
+  { src: './assets/images/real/facade.jpg', cat: 'public', big: true },
+  { src: './assets/images/real/pool-aerial.jpg', cat: 'pool', big: true },
+  { src: './assets/images/real/room1.jpg', cat: 'rooms' },
+  { src: './assets/images/real/sunset-cocktails.jpg', cat: 'dining', big: true },
+  { src: './assets/images/real/breakfast.jpg', cat: 'dining' },
+  { src: './assets/images/real/lobby.jpg', cat: 'public' },
+  { src: './assets/images/real/rooftop.jpg', cat: 'facilities', big: true },
+  { src: './assets/images/real/pool-swimmer.jpg', cat: 'pool' },
+  { src: './assets/images/real/room5-bed.jpg', cat: 'rooms', big: true },
+  { src: './assets/images/real/bathroom.jpg', cat: 'rooms' },
+  { src: './assets/images/real/lobby.jpg', cat: 'public' }
 ];
 
 const FAQ = [
