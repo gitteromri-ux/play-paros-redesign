@@ -401,7 +401,7 @@ a {
 .hero-bg {
   position: absolute;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
 }
 .hero-bg img {
   width: 100%;
@@ -417,9 +417,7 @@ a {
   content: '';
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(90deg, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.42) 38%, rgba(0,0,0,0.05) 62%),
-    linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.02) 22%, rgba(0,0,0,0.08) 68%, rgba(0,0,0,0.6) 100%);
+  background: linear-gradient(100deg, rgba(5,5,5,0.88) 0%, rgba(5,5,5,0.68) 30%, rgba(5,5,5,0.32) 50%, rgba(5,5,5,0.12) 65%, rgba(5,5,5,0.32) 100%);
 }
 .hero-bg::before {
   content: '';
