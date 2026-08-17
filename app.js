@@ -26,8 +26,8 @@ function renderRoomCard(r) {
     <div class="body">
       <h3>${r.name}</h3>
       <div class="meta"><span>${[r.occ, r.bed, r.extra].filter(Boolean).join(' · ')}</span></div>
-      <p>${r.desc}</p>
-      <div class="tags">${ROOM_TAGS.slice(0, 5).map(t => `<span>${t}</span>`).join('')}</div>
+      <p class="room-desc">${r.desc}</p>
+      <div class="tags">${ROOM_TAGS.slice(0, 4).map(t => `<span>${t}</span>`).join('')}</div>
       <a href="https://simplebooking.brownhotels.com/ibe2/hotel/11401" target="_blank" rel="noopener noreferrer" class="btn btn--ghost" style="margin-top:var(--space-5); width:100%; justify-content:center">Check Availability</a>
     </div>
   </article>`;
@@ -38,10 +38,10 @@ function renderDealCard(d) {
   <article class="deal-card">
     <span class="pct">${d.pct}<span style="font-size:.4em; vertical-align:top">off</span></span>
     <h3>${d.title}</h3>
-    <p style="opacity:.55; font-size:var(--text-xs); text-transform:uppercase; letter-spacing:.06em">${d.window}</p>
+    <p class="deal-window">${d.window}</p>
     <p>${d.body}</p>
     ${d.code ? `<span class="code">Code: ${d.code}</span>` : ''}
-    <p style="font-size:var(--text-xs); opacity:.55; margin-top:auto">${d.fine}</p>
+    <p class="deal-fine">${d.fine}</p>
     <a href="https://simplebooking.brownhotels.com/ibe2/hotel/11401" target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="margin-top:var(--space-2); width:fit-content">More Details &amp; Order</a>
   </article>`;
 }
