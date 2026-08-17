@@ -161,7 +161,7 @@ function observeReveals() {
 
 // ---------- Router ----------
 
-const VALID_ROUTES = ['home', 'rooms', 'deals', 'facilities', 'experience', 'gallery', 'contact', 'group', 'strategy'];
+const VALID_ROUTES = ['home', 'rooms', 'deals', 'facilities', 'experience', 'gallery', 'contact', 'strategy'];
 
 function route() {
   let hash = (location.hash || '#home').replace('#', '');
